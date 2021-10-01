@@ -2,6 +2,7 @@ import React from 'react';
 import './PatientPage.css';
 import { Element } from 'react-scroll';
 import Header from '../components/Header';
+import SideNav from '../components/SideNav';
 import Staff from './staff/Staff';
 import Services from './patients/Services';
 
@@ -9,8 +10,9 @@ const PatientPage = () => {
   return (
     <div className='page patient-page'>
       <Header />
+      <SideNav />
 
-      <section className='patient-page__info'>
+      {/* <section className='patient-page__info'>
         <h2>
           {' '}
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
@@ -20,7 +22,7 @@ const PatientPage = () => {
           atque quos possimus pariatur! Aliquam maiores vero eaque eveniet, ipsa
           ab officia recusandae!
         </h2>
-      </section>
+      </section> */}
 
       <Element name='el1' className='sec-wrapper'>
         <div className='main-section__header'>
