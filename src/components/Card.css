@@ -1,0 +1,13 @@
+.card {
+  width: 350px;
+  height: 250px;
+  background-color: var(--srf-dark);
+  border-radius: 15px;
+  margin: 1rem 0;
+  padding: 1rem;
+  overflow-wrap: break-word;
+}
+
+.card > h1 {
+  text-align: center;
+}
