@@ -8,19 +8,17 @@
 
 html {
   font-size: 62.5%;
+
+  --primary: #f56e51;
+  --background: #f5f3e7;
+  --srf-dark: #429eab;
+  --srf-light: #aed6d9;
 }
 
 body {
   /* font-family: 'Roboyo', sans-serif; */
   font-weight: 400;
-  font-size: 1.6rem;
+  /* font-size: 1.6rem; */
   line-height: 1.7;
   box-sizing: border-box;
-}
-
-body {
-  --primary: #f5e651;
-  --background: #f5f3e7;
-  --srf-dark: #429eab;
-  --srf-light: #aed6d9;
 }
