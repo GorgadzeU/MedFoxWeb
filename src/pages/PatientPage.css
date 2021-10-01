@@ -1,0 +1,9 @@
+.patient-page__info {
+  margin: 5rem 0;
+  text-align: center;
+}
+
+.patient-page__info > h2 {
+  font-size: 1.8rem;
+  font-weight: normal;
+}
