@@ -2,6 +2,8 @@ import React from 'react';
 import './PatientPage.css';
 import { Element } from 'react-scroll';
 import Header from '../components/Header';
+import Staff from './staff/Staff';
+import Services from './patients/Services';
 
 const PatientPage = () => {
   return (
@@ -21,11 +23,30 @@ const PatientPage = () => {
       </section>
 
       <Element name='el1' className='sec-wrapper'>
-        test 1
+        <div className='main-section__header'>
+          <img
+            src='https://i2.wp.com/www.befitphysio.com.au/wp-content/uploads/2019/01/saying.jpg?fit=1920%2C800&ssl=1'
+            alt=''
+          />
+          <h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            expedita magni molestiae reiciendis delectus, quos quibusdam
+            similique hic sit veritatis?
+          </h3>
+        </div>
+        <Staff />
       </Element>
 
       <Element name='el2' className='sec-wrapper'>
-        test 2
+        <Services />
+      </Element>
+
+      <Element name='el3' className='sec-wrapper'>
+        test 3
+      </Element>
+
+      <Element name='el4' className='sec-wrapper'>
+        test 4
       </Element>
     </div>
   );

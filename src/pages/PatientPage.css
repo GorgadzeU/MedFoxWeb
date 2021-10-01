@@ -7,3 +7,21 @@
   font-size: 1.8rem;
   font-weight: normal;
 }
+
+.main-section__header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+.main-section__header > img {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.main-section__header > h3 {
+  margin: 2rem 0;
+}
