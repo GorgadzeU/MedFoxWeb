@@ -23,25 +23,12 @@
   align-items: center;
 }
 
-.nav-link {
-  margin-left: 2rem;
-
-  color: var(--primary);
+.header__nav-link {
   text-decoration: none;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(
-    to right,
-    var(--srf-dark),
-    var(--srf-dark) 50%,
-    var(--primary) 50%
-  );
-  background-size: 200% 100%;
-  background-position: 100%;
-  cursor: pointer;
+  color: black;
+  margin-left: 1rem;
 }
 
-.nav-link:hover {
-  transition: all 0.5s cubic-bezier(0, 0, 0.23, 1);
-  background-position: 0%;
+.header__nav-link-active {
+  color: var(--primary);
 }
