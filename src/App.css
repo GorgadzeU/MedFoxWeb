@@ -28,3 +28,12 @@
 .sec-wrapper > h1 {
   text-align: center;
 }
+
+.sec-wrapper h3 {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+/* .section {
+  min-height: 100vh;
+} */

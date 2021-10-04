@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className='footer'>
       <div className='footer__icons'>
         <span className='footer-icon'>
-          <AiFillFacebook className='footer-icon__svg' size='40' />
+          <AiFillFacebook className='footer-icon__svg' size='40px' />
         </span>
         <span className='footer-icon'>
           <AiFillInstagram className='footer-icon__svg' size='40' />

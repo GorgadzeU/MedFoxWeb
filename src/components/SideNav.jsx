@@ -3,7 +3,6 @@ import './SideNav.css';
 import NavLink from './NavLink';
 
 const SideNav = ({ navLinks }) => {
-  console.log('navlink', navLinks);
   return (
     <div className='side-nav'>
       <div className='side-nav__actions'>
