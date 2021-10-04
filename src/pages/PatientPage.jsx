@@ -11,7 +11,7 @@ const PatientPage = () => {
   return (
     <div className='page patient-page'>
       <Header />
-      <SideNav />
+      <SideNav navLinks={['თერაპევტები', 'სერვისები', 'მოთხოვნა']} />
 
       <Element name='el1' className='sec-wrapper'>
         <div className='main-section__header'>

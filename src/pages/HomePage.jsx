@@ -21,7 +21,9 @@ const HomePage = ({ history }) => {
         <Button className='x2-btn' onClick={() => history.push('/patient')}>
           პაციენტი
         </Button>
-        <Button className='x2-btn'>თერაპევტი</Button>
+        <Button className='x2-btn' onClick={() => history.push('/therapeut')}>
+          თერაპევტი
+        </Button>
       </div>
     </div>
   );
