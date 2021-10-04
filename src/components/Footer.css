@@ -1,0 +1,42 @@
+.footer {
+  width: 100%;
+  height: 100px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  vertical-align: middle;
+}
+
+.footer__contacts-icon {
+  /* width: 100%; */
+  /* height: 100%;   */
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.footer__contacts-icon-svg {
+  margin-right: 1rem;
+}
+
+.footer-icon,
+.footer-icon__svg {
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.footer-icon:hover .footer-icon__svg {
+  color: var(--srf-dark);
+  transform: rotate(360deg) scale(1.2);
+}
