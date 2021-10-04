@@ -12,7 +12,7 @@ const SideNav = () => {
           to='el1'
           spy={true}
           smooth={true}
-          offset={50}
+          offset={-50}
           duration={500}
         >
           <div className='side-nav__link-text'>ტერაპევტები</div>
@@ -25,7 +25,7 @@ const SideNav = () => {
           to='el2'
           spy={true}
           smooth={true}
-          offset={50}
+          offset={-50}
           duration={500}
         >
           <div className='side-nav__link-text'>სერვისები</div>
@@ -38,23 +38,10 @@ const SideNav = () => {
           to='el3'
           spy={true}
           smooth={true}
-          offset={50}
+          offset={-50}
           duration={500}
         >
-          <div className='side-nav__link-text'>სერვისები</div>
-          <span className='side-nav__link-dot'></span>
-          <span className='side-nav__link-line'></span>
-        </Link>
-        <Link
-          className='side-nav__link'
-          activeClass='active-side-navLink'
-          to='el4'
-          spy={true}
-          smooth={true}
-          offset={50}
-          duration={500}
-        >
-          <div className='side-nav__link-text'>სერვისები</div>
+          <div className='side-nav__link-text'>მოთხოვნა</div>
           <span className='side-nav__link-dot'></span>
           <span className='side-nav__link-line'></span>
         </Link>
