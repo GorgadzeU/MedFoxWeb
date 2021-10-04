@@ -5,24 +5,13 @@ import Header from '../components/Header';
 import SideNav from '../components/SideNav';
 import Staff from './staff/Staff';
 import Services from './patients/Services';
+import RequestForm from './patients/RequestFrom';
 
 const PatientPage = () => {
   return (
     <div className='page patient-page'>
       <Header />
       <SideNav />
-
-      {/* <section className='patient-page__info'>
-        <h2>
-          {' '}
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-          molestiae impedit ex odit nostrum magni vitae saepe aut quas
-          inventore, accusamus voluptate. Obcaecati ad vitae deserunt laudantium
-          harum vero doloribus, vel eveniet magnam dolores rem assumenda beatae
-          atque quos possimus pariatur! Aliquam maiores vero eaque eveniet, ipsa
-          ab officia recusandae!
-        </h2>
-      </section> */}
 
       <Element name='el1' className='sec-wrapper'>
         <div className='main-section__header'>
@@ -40,15 +29,13 @@ const PatientPage = () => {
       </Element>
 
       <Element name='el2' className='sec-wrapper'>
+        <h1>სერვისები</h1>
         <Services />
       </Element>
 
       <Element name='el3' className='sec-wrapper'>
-        test 3
-      </Element>
-
-      <Element name='el4' className='sec-wrapper'>
-        test 4
+        <h1>სერვისის მოთხოვნა</h1>
+        <RequestForm />
       </Element>
     </div>
   );

@@ -16,7 +16,15 @@
   margin: 5rem auto;
   border-radius: 5rem;
   width: 65%;
-
-  min-height: 50vh;
+  /* min-height: 100vh; */
+  /* min-height: 50vh; */
+  min-height: 500px;
   background-color: var(--srf-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.sec-wrapper > h1 {
+  text-align: center;
 }
