@@ -46,6 +46,7 @@
 
 .side-nav__link:hover {
   color: var(--primary);
+  transform: translateX(-10px);
 }
 .side-nav__link:hover .side-nav__link-dot {
   background-color: var(--primary);
