@@ -30,3 +30,12 @@ export const TextArea = ({ label, value, onChange }) => {
     </div>
   );
 };
+
+export const CheckBox = ({ label, onChange, id, ...otherProps }) => {
+  return (
+    <div className='checkbox-input-wrapper'>
+      <label htmlFor={id}>{label}</label>
+      <input type='checkbox' id={id} onChange={onChange} {...otherProps} />
+    </div>
+  );
+};

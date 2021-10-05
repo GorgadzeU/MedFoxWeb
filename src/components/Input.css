@@ -7,6 +7,24 @@
   margin-bottom: 1rem;
 }
 
+.checkbox-input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.checkbox-input-wrapper > input {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.checkbox-input-wrapper > label {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
 .input {
   border-radius: 10px;
   width: 100%;
