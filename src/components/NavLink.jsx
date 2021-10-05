@@ -13,8 +13,8 @@ const NavLink = ({ text, el }) => {
       duration={500}
     >
       <div className='side-nav__link-text'>{text}</div>
-      <span className='side-nav__link-dot'></span>
-      <span className='side-nav__link-line'></span>
+      {/* <span className='side-nav__link-dot'></span>
+      <span className='side-nav__link-line'></span> */}
     </Link>
   );
 };

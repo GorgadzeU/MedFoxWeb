@@ -46,7 +46,7 @@
 
 .side-nav__link:hover {
   color: var(--primary);
-  transform: translateX(-10px);
+  transform: translateX(-20px);
 }
 .side-nav__link:hover .side-nav__link-dot {
   background-color: var(--primary);
@@ -54,22 +54,5 @@
 
 .active-side-navLink {
   color: var(--primary);
-  /* transition: all 1s; */
-  /* transform: translateX(-50px); */
+  transform: translateX(-20px);
 }
-
-.active-side-navLink > .side-nav__link-dot {
-  background-color: var(--primary);
-}
-
-.active-side-navLink > .side-nav__link-line {
-  width: 50px;
-}
-
-/* .active-side-navLink::after {
-  content: '';
-  width: 50px;
-  height: 4px;
-  margin-left: -2px;
-  background-color: var(--primary);
-} */
